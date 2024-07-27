@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Tourney:wght@300&display=swap');
+
+.wrapper{
+    height: 100vh;
+    width:100%;
+    overflow:hidden; /* or overflow:auto; if you want scrollbars */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,2,55,1) 8%, rgba(5,3,70,1) 14%, rgba(8,7,106,1) 29%, rgba(9,9,121,1) 35%, rgba(8,40,142,1) 45%, rgba(7,53,150,1) 49%, rgba(6,71,162,1) 55%, rgba(6,84,171,1) 59%, rgba(5,96,179,1) 63%, rgba(4,118,193,1) 70%, rgba(3,137,205,1) 76%, rgba(0,212,255,1) 100%);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .formdiv1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    border-top-style: inset;
+    border-color: black;
+  }
+  .header{
+    font-family: 'Bungee Shade', sans-serif;
+    font-size: 35px;
+  }
+  .form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .form input{
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    font-size: 24px;
+    border-color: black;
+    border-radius: 20px;
+}
+  label{
+    font-weight: bold;
+
+  }
+  .btn_submit{
+    padding: 10px 20px;
+    background-color: #1da1f2; /* Cor de fundo do Twitter */
+    color: white; /* Cor do texto */
+    border: none;
+    border-radius: 999px; /* Valor alto para criar um botão arredondado */
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn_submit:hover {
+    background-color: darkblue;
+    -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            
+}
+
+.btn_submit:active{
+    -webkit-animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.response{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.errorMsg{
+    color: red;
+}
+
+@-webkit-keyframes shadow-drop-2-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translateZ(50px);
+              transform: translateZ(50px);
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes shadow-drop-2-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translateZ(50px);
+              transform: translateZ(50px);
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+
+  @-webkit-keyframes scale-down-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+  }
+  @keyframes scale-down-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+  }
+  
