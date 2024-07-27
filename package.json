@@ -1,7 +1,7 @@
 {
   "name": "lb",
   "version": "0.1.0",
-  "homepage": "https://github.com/loizzm/lb/",
+  "homepage": "https://loizzm.github.io/lb/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.2",
     "gh-pages": "^6.1.1",
+    "mqtt": "^5.9.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.52.1",
