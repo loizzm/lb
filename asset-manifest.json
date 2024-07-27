@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/loizzm/lb/static/css/main.518072d7.css",
+    "main.js": "/loizzm/lb/static/js/main.12b1dfec.js",
+    "static/js/453.6e16c76e.chunk.js": "/loizzm/lb/static/js/453.6e16c76e.chunk.js",
+    "index.html": "/loizzm/lb/index.html",
+    "main.518072d7.css.map": "/loizzm/lb/static/css/main.518072d7.css.map",
+    "main.12b1dfec.js.map": "/loizzm/lb/static/js/main.12b1dfec.js.map",
+    "453.6e16c76e.chunk.js.map": "/loizzm/lb/static/js/453.6e16c76e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.518072d7.css",
+    "static/js/main.12b1dfec.js"
+  ]
+}
