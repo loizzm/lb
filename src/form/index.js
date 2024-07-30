@@ -61,12 +61,12 @@ client.on('error', function (error) {
           <input
             className="bigDog"
             placeholder="2"
-            type="number"
-            step="0.01"
-            min="0"
+            type="text"
+            inputMode="decimal"
+            step="any"
             {...register("voltage",{
                 required:true,
-                valueAsNumber: true
+               
             })}
           />
         {errors.voltage && errors.voltage.type === "required" && (
