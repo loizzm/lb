@@ -61,8 +61,9 @@ client.on('error', function (error) {
           <input
             className="bigDog"
             placeholder="2"
-            type="text"
-            inputMode="numeric"
+            type="number"
+            step="0.01"
+            min="0"
             {...register("voltage",{
                 required:true
             })}
