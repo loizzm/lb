@@ -65,7 +65,8 @@ client.on('error', function (error) {
             step="0.01"
             min="0"
             {...register("voltage",{
-                required:true
+                required:true,
+                valueAsNumber: true
             })}
           />
         {errors.voltage && errors.voltage.type === "required" && (
